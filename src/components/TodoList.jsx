@@ -22,7 +22,7 @@ const TodoList = () => {
 
   return (
     <ul>
-      <li className="my-2 text-sm italic">All Your Notes Here...</li>
+      <li className="my-2 text-sm italic">All Your Task Tile & Description Are Here...</li>
       {filteredTodos.map((todo, index) => (
         <TodoItem key={index} todo={todo} index={index} />
       ))}
